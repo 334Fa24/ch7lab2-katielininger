@@ -5,7 +5,7 @@ File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3, ul,  aside, figure, figcaption {
+body, header, nav, main, footer, img, h1, h3, ul, aside, figure, figcaption {
     margin: 0;
     padding: 0;
     border: 0;
@@ -185,11 +185,13 @@ footer a {
     }
     
     .grid {
+        display: grid;
         grid-template-columns: auto auto;
         grid-gap: 10px;
     }
     
     aside {
+        display: grid;
         grid-column: 1 / span 2;
     }
     
@@ -217,11 +219,13 @@ footer a {
         margin-left: 5%;
     }
     .grid {
+        display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 30px;
     }
     
     aside {
+        display: grid;
         grid-column: 1 / span 3;
         font-size: 2em;
     }
@@ -245,10 +249,13 @@ footer a {
     }
     
     .grid {
+        display: grid;
         grid-template-columns: auto auto auto auto;
+        grid-gap: 0px;
     }
     
     aside {
+        display: grid;
         grid-column: 1 / span 4;
         font-size: 3em;
     }
